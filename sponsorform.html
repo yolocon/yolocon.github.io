@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>YOLOcon 20</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+</head>
+
+<body>
+    <section class="hero is-dark is-fullheight is-bold">
+        <div id="space_particles">
+            <div class="hero-body" style="position: absolute;  width: 100%; height: 100%;">
+                <div class="container is-fluid">
+                    <center>
+                    <img src="yolo20invert.png" ></img>
+                    <h2 class="subtitle">
+                        Student Led Information Security Conference at Eastern Michigan University
+                    </h2>
+                    <a href="index.html" class="button is-primary is-inverted is-outlined is-large">
+                        <span class="icon">
+                            <i class="fas fa-home"></i>
+                          </span>
+                        <span>Home</span>
+                    </a>
+                    <a href="rsvpform.html" class="button is-primary is-inverted is-outlined is-large">
+                        <span class="icon">
+                            <i class="fab fa-google"></i>
+                        </span>
+                        <span>RSVP Form</span>
+                    </a>
+                    <a href="speakerform.html" class="button is-primary is-inverted is-outlined is-large">
+                        <span class="icon">
+                            <i class="fab fa-google"></i>
+                        </span>
+                        <span>Speaker Form</span>
+                    </a>
+                    <a href="sponsorform.html" class="button is-primary is-inverted is-outlined is-large">
+                        <span class="icon">
+                            <i class="fab fa-google"></i>
+                        </span>
+                        <span>Sponsor Form</span>
+                    </a>
+                    <a href="schedule.html" class="button is-primary is-inverted is-outlined is-large">
+                        <span class="icon">
+                            <i class="fas fa-clock"></i>
+                        </span>
+                        <span>Schedule</span>
+                    </a>
+                </center>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="container is-fullhd">
+        <div class="notification">
+            <center>
+                <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdWdsDsBKc-bhQsW_DmgIjYXH6SlqfVVyCuYagQoY00m11APw/viewform?embedded=true" width="640" height="940" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+            </center>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                Made with <strong><span style="color: rgb(0, 214, 29)">♥</span></strong> by the <strong>IASA</strong>
+            </p>
+        </div>
+    </footer>
+    <script>
+        particlesJS("space_particles", { "particles": { "number": { "value": 160, "density": { "enable": true, "value_area": 800 } }, "color": { "value": "#ffffff" }, "shape": { "type": "circle", "stroke": { "width": 0, "color": "#29bc30" }, "polygon": { "nb_sides": 5 }, "image": { "src": "img/github.svg", "width": 100, "height": 100 } }, "opacity": { "value": 1, "random": true, "anim": { "enable": true, "speed": 1, "opacity_min": 0, "sync": false } }, "size": { "value": 3, "random": true, "anim": { "enable": false, "speed": 4, "size_min": 0.3, "sync": false } }, "line_linked": { "enable": false, "distance": 150, "color": "#ffffff", "opacity": 0.4, "width": 1 }, "move": { "enable": true, "speed": 1, "direction": "none", "random": true, "straight": false, "out_mode": "out", "bounce": false, "attract": { "enable": false, "rotateX": 600, "rotateY": 600 } } }, "interactivity": { "detect_on": "canvas", "events": { "onhover": { "enable": true, "mode": "bubble" }, "onclick": { "enable": true, "mode": "repulse" }, "resize": true }, "modes": { "grab": { "distance": 400, "line_linked": { "opacity": 1 } }, "bubble": { "distance": 250, "size": 0, "duration": 2, "opacity": 0, "speed": 3 }, "repulse": { "distance": 400, "duration": 0.4 }, "push": { "particles_nb": 4 }, "remove": { "particles_nb": 2 } } }, "retina_detect": true });
+        update = function () {
+            requestAnimationFrame(update);
+        };
+        requestAnimationFrame(update);
+    </script>
+
+</body>
+
+</html>
