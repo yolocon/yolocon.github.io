@@ -9,4 +9,4 @@
 4. [X] Update location/map on homepage: Sill
 5. [X] Update RSVP, Speaker, Sponsor forms: Forms accessible under webmaster Google account.
 6. [ ] Update schedule: Need to create a general schedule for the day. Swap in and out presentations as needed. Homepage and schedule.html
-7. [ ] Update sponsor logos in sponsors.html
+7. [ ] Update sponsors: Copy out of sponsorstemplate.html, live page is sponsors.html
