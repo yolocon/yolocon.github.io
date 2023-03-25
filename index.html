@@ -1,81 +1,103 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>YOLOcon 20</title>
-    <meta charset="UTF-8">
+    <title>YoloCon 23</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css" integrity="sha384-twcuYPV86B3vvpwNhWJuaLdUSLF9+ttgM2A6M870UYXrOsxKfER2MKox5cirApyA" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="debug.css"> -->
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 </head>
 
 <body>
-    <section class="hero is-dark is-fullheight is-bold">
-        <div id="space_particles">
-            <div class="hero-body" style="position: absolute;  width: 100%; height: 100%;">
-                <div class="container is-fluid">
+    <div id="banner-holder" class="is-relative">
+        <div id="space_particles" style="position:absolute; width: 100%; height:100%;"></div>
+        <div id="banner" class="has-background-dark">
+            <div class="columns is-align-items-center has-text-centered">
+                <div class="column" style="width:auto;">
                     <center>
-                    <img src="yolo20invert.png" ></img>
-                    <h2 class="subtitle">
-                        Student Led Information Security Conference at Eastern Michigan University
-                    </h2>
-                    <a href="index.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fas fa-home"></i>
-                          </span>
-                        <span>Home</span>
-                    </a>
-                    <a href="rsvpform.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fab fa-google"></i>
-                        </span>
-                        <span>RSVP Form</span>
-                    </a>
-                    <a href="speakerform.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fab fa-google"></i>
-                        </span>
-                        <span>Speaker Form</span>
-                    </a>
-                    <a href="sponsorform.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fab fa-google"></i>
-                        </span>
-                        <span>Sponsor Form</span>
-                    </a>
-                    <a href="schedule.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fas fa-clock"></i>
-                        </span>
-                        <span>Schedule</span>
-                    </a>
-                </center>
+                        <figure class="px-5 pt-5"><img src="YoloCon_white.svg" width="512" height="164" alt="YoloCon logo"></figure>
+                        <div class="pb-2">
+                            <div>
+                                <h2 class="subtitle has-text-white is-5">Student Led Information Security <br class="is-hidden-tablet">Conference at Eastern Michigan University</h2>
+                            </div>
+                        </div>
+                        <a href="index.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fas fa-home"></i>
+                            </span>
+                            <span>Home</span>
+                        </a>
+                        <a href="rsvpform.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fab fa-google"></i>
+                            </span>
+                            <span>RSVP Form</span>
+                        </a>
+                        <a href="speakerform.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fab fa-google"></i>
+                            </span>
+                            <span>Speaker Form</span>
+                        </a>
+                        <a href="sponsorform.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fab fa-google"></i>
+                            </span>
+                            <span>Sponsor Form</span>
+                        </a>
+                        <a href="schedule.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fas fa-clock"></i>
+                            </span>
+                            <span>Schedule</span>
+                        </a>
+                        <a href="sponsors.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fas fa-donate"></i>
+                            </span>
+                            <span>Sponsors</span>
+                        </a>
+                    </center>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <section class="section">
         <div class="container is-fluid">
             <div class="content">
-                <h1>About YOLOcon</h1>
-                <p>Eastern Michigan University's Information Assurance Student Association (IASA) is pleased to announce the fourth annual Ypsilanti Online Learning Opportunity Conference -  YOLOCon 20 on <strong>Saturday, April 4th, 2020!</strong></p>
-                <p>The objective of this conference is to inspire students to practice their abilities interfacing with people, businesses, and presenting themselves in a professional manner. Student led talks will cover a range of information from offensive red team to live forensics. All topics are student selected, and focused on what facet of Information Assurance, or technology, that each student is individually passionate about.</p>
-                <p>The conference will be hosted in 1st Floor Roosevelt Hall, at <strong><a href="https://www.google.com/maps?ll=42.247687,-83.622644&z=20&t=h&hl=en-US&gl=US&deg=0&mapclient=embed&daddr=698+W+Forest+Ave+%23626+Ypsilanti,+MI+48197@42.2476872,-83.6226444">698 W Forest Ave #626, Ypsilanti, MI 48197</a>.</strong></p>
+                <h1 class="title is-2">About YoloCon</h1>
+                <p>
+                YoloCon (Ypsilanti Online Learning Opportunity Conference) is an industry engagement conference organized by the <a href="https://emu-iasa.github.io/">Information Assurance Student Association (IASA)</a> at Eastern Michigan University.
+                The conference provides a unique opportunity for cybersecurity professionals to speak and inspire the next generation. It is designed for companies to engage with students and professionals in the cybersecurity industry.
+                </p>
+                <p>
+                YoloCon is the primary fundraiser for the IASA, and it supports all the events hosted by the association. 
+                The conference enables students to grow their skills, learn about current technological advancements, compete in cybersecurity competitions, and expand their networks.
+                Additionally, YoloCon grants students access to gamified learning resources that provide comprehensive training for competitions such as the National Cyber League and the National Collegiate Cyber Defense Competition. 
+                By participating in YoloCon, companies can support and educate students in cybersecurity and strengthen the quality of applicants they can expect to see.
+                </p>
+                <p>
+                YoloCon 23 takes place on <strong>Saturday, April 22th, 2023.</strong>
+                The conference will be hosted in <strong><a href="https://goo.gl/maps/3ZbZZS6YkwHiDsFW6">Sill Hall, Goodard, Ypsilanti, MI 48197</a>.</strong>
+                </p>
             </div>
-            <div class="content">
-                <div class="mapouter"><div class="gmap_canvas"><iframe width="900" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=698%20W%20Forest%20Ave%20%23626%2C%20Ypsilanti%2C%20MI%2048197&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>Werbung: <a href="https://www.pureblack.de">Pure Black GmbH</a></div><style>.mapouter{position:relative;text-align:right;height:500px;width:900px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:900px;}</style></div>
+            <div class="content mapouter">
+                <div class="gmap_canvas"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d824.8761356513874!2d-83.620596!3d42.2485728!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x883ca84edfa237fd%3A0x7a7496775445269!2sSill%20Hall%2C%20Goodard%2C%20Ypsilanti%2C%20MI%2048197!5e1!3m2!1sen!2sus!4v1665545049500!5m2!1sen!2sus" height="300" style="width:100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
             </div>
         </div>
     </section>
     <section class="section">
         <div class="container is-fluid">
             <div class="content">
-                
                 <h1 id="schedule">Schedule</h1>
+                <!-- TODO: Update new schedule. -->
                 <hr>
-                <p>
+                <div class="notification is-warning"><p>Coming soon!</p></div>
+                <!-- <p>
                     <h3>Overview</h3>
                     <span class="tag">9:00 am - 10:00 am</span>
                     <p>🍩 YoloCon sign in and breakfast provided by AHEAD</p>
@@ -93,6 +115,63 @@
                     <p>💼 Network with YoloCon's sponsors!</p>
                 </p>
                 <hr>
+                <p>
+                    <h2 id="track1">Track 1</h2>
+                    <span class="tag">10:00 am - 10:45 am</span>
+                    <p>Mike Gorman - Barracuda Networks: "DMARC, DKIM, and SPF email security"</p>
+                    <hr>
+                    <span class="tag">11:00 am - 12:00 pm</span>
+                    <p>Anthony Tippy: "A/V Vulnerabilities"</p>
+                    <hr>
+                    <span class="tag">12:30 pm - 1:30 pm</span>
+                    <p>Steven Aiello - Ahead: "Active Directory Security"</p>
+                    <hr>
+                    <span class="tag">1:45 pm - 2:00 pm</span>
+                    <p>Women in IA: "Recruitment and What we do"</p>
+                    <hr>
+                    <span class="tag">2:15 pm - 2:30 pm</span>
+                    <p>Alex Prindle: "Hacking is easy!"</p>
+                </p>
+                <hr>
+                <p>
+                    <h2 id="track2">Track 2</h2>
+                    <span class="tag">10:00 am - 10:30 am</span>
+                    <p>William Watson - "GQRX RTL-SDR on Rasperry Pi"</p>
+                    <hr>
+                    <span class="tag">10:45 am - 11:30 pm</span>
+                    <p>Jacob Rickerd and Zack Hardie - Duo: "How to Automate your Job"</p>
+                    <hr>
+                    <span class="tag">11:30 am - 12:00 pm</span>
+                    <p>Kent Gruber: "Rick Rolling all the Rokus"</p>
+                    <hr>
+                    <span class="tag">12:30 pm - 1:15 pm</span>
+                    <p>Jacob Pigeon: "Video Game Hacking"</p>
+                    <hr>
+                    <span class="tag">1:30 pm - 2:00 pm</span>
+                    <p>Luke McManamon: "PFSense"</p>
+                    <hr>
+                    <span class="tag">2:15 pm - 2:30 pm</span>
+                    <p>Ryan Weber: "AWS Questions and Answers""</p>
+                </p>
+                <hr>
+                <p>
+                    <h2 id="track3">Track 3</h2>
+                    <span class="tag">10:00 am - 10:30 am</span>
+                    <p>Zahirul Islam: "Mitre ATT&CK for Healthcare"</p>
+                    <hr>
+                    <span class="tag">10:45 am - 11:30 pm</span>
+                    <p>Chris Meyer: "All things Elasticsearch"</p>
+                    <hr>
+                    <span class="tag">11:30 am - 12:00 pm</span>
+                    <p>Ryan Bauer: "TekSystems"</p>
+                    <hr>
+                    <span class="tag">12:30 pm - 1:30 pm</span>
+                    <p>Emily Eubanks - Ahead: "Cloudy Honeypots"</p>
+                    <hr>
+                    <span class="tag">1:45 pm - 2:30 pm</span>
+                    <p>Steven E. Motts - Consumers Energy: "ATT&CK, ATOMIC, MATE Oh MY! Adversarial detection from 0 to Her0!"</p>
+                </p>
+                <hr> -->
             </div>
         </div>
     </section>

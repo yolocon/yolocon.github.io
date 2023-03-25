@@ -1,60 +1,73 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <title>YOLOcon 20</title>
+    <title>YoloCon 23 - Speaker Form</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css" integrity="sha512-HqxHUkJM0SYcbvxUw5P60SzdOTy/QVwA1JJrvaXJv4q7lmbDZCmZaqz01UPOaQveoxfYRv1tHozWGPMcuTBuvQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.1/css/all.css" integrity="sha384-twcuYPV86B3vvpwNhWJuaLdUSLF9+ttgM2A6M870UYXrOsxKfER2MKox5cirApyA" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
-    <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <section class="hero is-dark is-fullheight is-bold">
-        <div id="space_particles">
-            <div class="hero-body" style="position: absolute;  width: 100%; height: 100%;">
-                <div class="container is-fluid">
+    <div id="banner-holder" class="is-relative">
+        <div id="space_particles" style="position:absolute; width: 100%; height:100%;"></div>
+        <div id="banner" class="has-background-dark">
+            <div class="columns is-align-items-center">
+                <div class="column" style="width:auto;">
                     <center>
-                    <img src="yolo20invert.png" ></img>
-                    <h2 class="subtitle">
-                        Student Led Information Security Conference at Eastern Michigan University
-                    </h2>
-                    <a href="index.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fas fa-home"></i>
-                          </span>
-                        <span>Home</span>
-                    </a>
-                    <a href="rsvpform.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fab fa-google"></i>
-                        </span>
-                        <span>RSVP Form</span>
-                    </a>
-                    <a href="speakerform.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fab fa-google"></i>
-                        </span>
-                        <span>Speaker Form</span>
-                    </a>
-                    <a href="schedule.html" class="button is-primary is-inverted is-outlined is-large">
-                        <span class="icon">
-                            <i class="fas fa-clock"></i>
-                        </span>
-                        <span>Schedule</span>
-                    </a>
-                </center>
+                        <figure class="px-5 pt-5"><img src="YoloCon_white.svg" width="512" height="164" alt="YoloCon logo"></figure>
+                        <div class="pb-2">
+                            <div>
+                                <h2 class="subtitle has-text-white is-5">Student Led Information Security <br class="is-hidden-tablet">Conference at Eastern Michigan University</h2>
+                            </div>
+                        </div>
+                        <a href="index.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fas fa-home"></i>
+                            </span>
+                            <span>Home</span>
+                        </a>
+                        <a href="rsvpform.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fab fa-google"></i>
+                            </span>
+                            <span>RSVP Form</span>
+                        </a>
+                        <a href="speakerform.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fab fa-google"></i>
+                            </span>
+                            <span>Speaker Form</span>
+                        </a>
+                        <a href="sponsorform.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fab fa-google"></i>
+                            </span>
+                            <span>Sponsor Form</span>
+                        </a>
+                        <a href="schedule.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fas fa-clock"></i>
+                            </span>
+                            <span>Schedule</span>
+                        </a>
+                        <a href="sponsors.html" class="button is-primary is-inverted is-outlined">
+                            <span class="icon">
+                                <i class="fas fa-donate"></i>
+                            </span>
+                            <span>Sponsors</span>
+                        </a>
+                    </center>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <section class="container is-fullhd">
-        <div class="notification">
-            <center>
-                <iframe width="840" height="2005" src="https://docs.google.com/forms/d/e/1FAIpQLSdDke2a9Z9C_uEjGPwOLI7Dn2flCdurYRu83KlKqHzxC_AjiA/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
-            </center>
+        <div class="hero is-fullheight">
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf5CQGc_kPjoxRZonwMx8HRC2TlN0dJaAbmEace_dcvP9Lmzw/viewform?embedded=true" style="width:100%; height:2000px;"></iframe>
         </div>
     </section>
     <footer class="footer">
