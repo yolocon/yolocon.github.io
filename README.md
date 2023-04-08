@@ -8,8 +8,9 @@
 3. [X] Update date on homepage: Apr 22, 2023
 4. [X] Update location/map on homepage: Sill
 5. [X] Update RSVP, Speaker, Sponsor forms: Forms accessible under webmaster Google account.
-6. [ ] Update schedule: Need to create a general schedule for the day. Swap in and out presentations as needed. Homepage and schedule.html
-7. [ ] Update sponsors: Copy out of sponsorstemplate.html, live page is sponsors.html
+6. [X] Update embed.gif (Animated graphic embedded when linking to the site on social media.)
+7. [ ] Update schedule: Need to create a general schedule for the day. Swap in and out presentations as needed. Homepage and schedule.html
+8. [ ] Update sponsors: Copy out of sponsorstemplate.html, live page is sponsors.html
 
 ## Notes
 1. [ ] Fix side space from top bar on mobile.
