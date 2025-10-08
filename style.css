@@ -32,6 +32,12 @@
     display: flex;
     justify-content: center;
 }
+
+/* Footer styles */
+#footer-heart {
+    color: var(--bulma-link);
+}
+
 /* Google Maps styles */
 .mapouter {
     position: relative;
