@@ -1,3 +1,24 @@
+/* Applies changes to the default Bulma theme. */
+:root {
+    /* Makes the links club color. */
+    --bulma-link-h: 168deg;
+    --bulma-link-s: 93%;
+    --bulma-link-l: 29%;
+    /* This makes it so the links aren't so bright of a shade. Like on member's LinkedIn and email buttons. */
+    --bulma-link-on-scheme-l: 40%;
+    /* If we choose to use a different font from default. */
+    /* --bulma-family-primary: 'Handjet', sans-serif;
+    --bulma-body-weight: 500; */
+}
+
+/* Make light mode embedded elements darker. Ex: Google Maps, Google Calendar */
+/* DO NOT use on photographs and LinkedIn embeds. Inverts colors. */
+[data-theme=dark] .invert-on-dark:not(img), .theme-dark .invert-on-dark:not(img) {
+    filter: grayscale(100%) invert(100%) contrast(85%);
+    -webkit-filter: grayscale(100%) invert(100%) contrast(85%);
+}
+
+/* Top/Banner styles */
 #banner-holder {
     display: flex;
     flex-direction: column;
@@ -10,4 +31,23 @@
     padding-bottom: 2vh;
     display: flex;
     justify-content: center;
+}
+/* Google Maps styles */
+.mapouter {
+    position: relative;
+}
+
+.gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+}
+
+/* Inverts the colors when dark mode is enabled. */
+@media (prefers-color-scheme: dark) {
+    /* Make light mode embedded elements darker. Ex: Google Maps, Google Calendar */
+    /* DO NOT use on photographs and LinkedIn embeds. Inverts colors. */
+    .invert-on-dark:not(img) {
+        filter: grayscale(100%) invert(100%) contrast(85%);
+        -webkit-filter: grayscale(100%) invert(100%) contrast(85%);
+    }
 }
